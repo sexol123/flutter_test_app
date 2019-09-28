@@ -28,7 +28,7 @@ class MyHomePage extends StatelessWidget {
                   Text(
                     "Hey there",
                     style:
-                    TextStyle(backgroundColor: Colors.white, fontSize: 32),
+                        TextStyle(backgroundColor: Colors.white, fontSize: 32),
                   ),
                 ],
               ),
