@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       //home: MyHomePage(title: 'Flutter Test App Home'),
       home: BlocProvider<ColorBloc>(
         builder: (context) => ColorBloc(),
-        child: MyHomePage(),
+        child: MyHomePage("MyHomePage"),
       ),
     );
   }
